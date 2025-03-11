@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Gurzhij Daniil - Frontend/AI Developer Portfolio. Разработка современных веб-приложений и AI решений">
+    <meta name="keywords" content="frontend developer, AI developer, web development, portfolio, React, JavaScript, Python">
+    <meta name="author" content="Gurzhij Daniil">
+    <meta property="og:title" content="Asakue | Frontend/AI Developer Portfolio">
+    <meta property="og:description" content="Portfolio of Gurzhij Daniil - Frontend and AI Developer">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1555066931-4365735bc1bf">
+    <meta property="og:url" content="your-website-url">
+    
+    <title>Asakue | Gurzhij Daniil - Frontend/AI Developer</title>
+    
+    <link rel="icon" type="image/png" href="https://img.icons8.com/nolan/64/code.png" alt="Site favicon">
+    <link rel="preload" href="styles/styles.css" as="style">
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" as="style">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Playfair+Display:wght@400;600;700&display=swap" as="style">
+    
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="preloader" role="status" aria-label="Загрузка страницы">
+        <div class="loader"></div>
+    </div>
+
+    <div class="animated-background" aria-hidden="true"></div>
+
+    <nav class="nav-menu" role="navigation" aria-label="Главное меню">
+        <button class="menu-icon" aria-label="Открыть меню" aria-expanded="false">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
+        <div class="menu-items" role="menu">
+            <a href="#home" class="menu-link active" role="menuitem">Главная</a>
+            <a href="#works" class="menu-link" role="menuitem">Проекты</a>
+            <a href="#contact" class="menu-link" role="menuitem">Контакты</a>
+        </div>
+    </nav>
+
+    <main class="container">
+        <section id="home" class="hero-section parallax">
+            <div class="hero-background" style="background-image: url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1920&q=80');"></div>
+            <h1 class="name" data-text="Asakue">Здравствуйте</h1>
+            <h2 class="sub-name">Asakue | Gurzhij Daniil</h2>
+            <div class="position">Frontend/AI Developer</div>
+            <div class="bio">
+                Создаю статические веб-приложения и использую искусственный интеллект для решения сложных задач. 
+                Моя страсть - объединять креативность и технологии для создания масштабируемых, 
+                ориентированных на пользователя решений.
+            </div>
+            <div class="hero-cta">
+                <a href="#works" class="primary-button" role="button">Мои проекты</a>
+                <a href="#contact" class="secondary-button" role="button">Связаться</a>
+            </div>
+        </section>
+
+        <section id="works" class="works-section">
+            <div class="project-background" style="background-image: url('https://i.pinimg.com/736x/e4/db/ae/e4dbae3d3524ee31768c4e63dffc5a0f.jpg');"></div>
+            <h2 class="section-title">Мои проекты</h2>
+            <div class="works-grid">
+                <article class="work-card reveal">
+                    <div class="work-image">
+                        <img src="https://i.pinimg.com/736x/aa/22/7d/aa227d405dde8f6fb8f5408135c3f9d8.jpg" 
+                             alt="Интерфейс приложения Weathertoday"
+                             loading="lazy">
+                        <div class="work-overlay">
+                            <div class="work-details">
+                                <div class="work-tech">HTML5 • CSS3 • JavaScript</div>
+                                <p class="work-description">Современное приложение с адаптивным дизайном</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="work-info">
+                        <h3 class="work-title">Weathertoday</h3>
+                        <div class="work-links">
+                            <a href="https://asakue.github.io/weathertoday/" class="work-link blob-btn" aria-label="Демо версия проекта Weathertoday">Demo</a>
+                            <a href="https://github.com/asakue/weathertoday" class="work-link blob-btn" aria-label="Исходный код проекта Weathertoday на GitHub">GitHub</a>
+                        </div>
+                    </div>
+                </article>
+        
+                <article class="work-card reveal">
+                    <div class="work-image">
+                        <img src="https://i.pinimg.com/736x/0e/bf/fb/0ebffb9732dfed3c6130ece67591e3b5.jpg" 
+                             alt="Скриншот игры 2048"
+                             loading="lazy">
+                        <div class="work-overlay">
+                            <div class="work-details">
+                                <div class="work-tech">HTML5 • CSS3 • JavaScript</div>
+                                <p class="work-description">Классическая игра в веб-исполнении</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="work-info">
+                        <h3 class="work-title">2048</h3>
+                        <div class="work-links">
+                            <a href="https://asakue.github.io/2048/" class="work-link blob-btn" aria-label="Демо версия игры 2048">Demo</a>
+                            <a href="https://github.com/asakue/2048" class="work-link blob-btn" aria-label="Исходный код игры 2048 на GitHub">GitHub</a>
+                        </div>
+                    </div>
+                </article>
+        
+                <article class="work-card reveal">
+                    <div class="work-image">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80" 
+                             alt="Коллаж дополнительных проектов"
+                             loading="lazy">
+                        <div class="work-overlay">
+                            <div class="work-details">
+                                <div class="work-tech">Шаблоны • Репозитории • Примеры работ</div>
+                                <p class="work-description">Посмотрите все мои проекты</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="work-info">
+                        <h3 class="work-title">Больше проектов</h3>
+                        <div class="work-links">
+                            <a href="projects.html" class="work-link blob-btn" aria-label="Перейти к полному портфолио проектов">Перейти</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>      
+        
+        <div class="section-divider"></div>
+        
+        <section id="contact" class="contact-section reveal">
+            <h2 class="contact-title">Свяжитесь со мной</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-text">
+                        <p>Готов обсудить ваш проект и найти оптимальное решение.</p>
+                        <p>Свяжитесь со мной любым удобным способом:</p>
+                    </div>
+                    <div class="contact-links">
+                        <a href="https://t.me/asakueqq" target="_blank" rel="noopener noreferrer" class="contact-link" aria-label="Написать в Telegram">
+                            <i class="fab fa-telegram" aria-hidden="true"></i>
+                            <span>Telegram</span></a>
+                            <a href="https://vk.com/asakueqq" target="_blank" rel="noopener noreferrer" class="contact-link" aria-label="Написать в ВКонтакте">
+                                <i class="fab fa-vk" aria-hidden="true"></i>
+                                <span>ВКонтакте</span>
+                            </a>
+                            <a href="https://github.com/asakue" target="_blank" rel="noopener noreferrer" class="contact-link" aria-label="Посмотреть профиль на GitHub">
+                                <i class="fab fa-github" aria-hidden="true"></i>
+                                <span>GitHub</span>
+                            </a>
+                        </div>
+                    </div>
+                    <form id="contactForm" class="contact-form" role="form" aria-label="Форма обратной связи">
+                        <div class="form-group">
+                            <label for="name" class="visually-hidden">Ваше имя</label>
+                            <input type="text" id="name" name="name" placeholder="Ваше имя (временно не работает)" required aria-required="true">
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="visually-hidden">Ваш email</label>
+                            <input type="email" id="email" name="email" placeholder="Ваш email (временно не работает)" required aria-required="true">
+                        </div>
+                        <div class="form-group">
+                            <label for="message" class="visually-hidden">Ваше сообщение</label>
+                            <textarea id="message" name="message" placeholder="Ваше сообщение (временно не работает)" required aria-required="true"></textarea>
+                        </div>
+                        <button type="submit" class="submit-button" aria-label="Отправить сообщение">Отправить</button>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <div class="section2-divider"></div>
+    
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="https://github.com/asakue" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                            <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.405 1.02.006 2.047.139 3.006.405 2.291-1.553 3.297-1.23 3.297-1.23.655 1.652.244 2.873.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                        </svg>
+                    </a>
+                    <span class="footer-text">by Asakue</span>
+                </div>
+                <div class="footer-links">
+                    <a href="pageshtml/privacy.html" class="footer-link">Политика конфиденциальности</a>
+                    <a href="pageshtml/terms.html" class="footer-link">Условия использования</a>
+                </div>
+            </div>
+        </footer>
+    
+        <script src="script.js" defer></script>
+    </body>
+    </html>
