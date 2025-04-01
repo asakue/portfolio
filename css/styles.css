@@ -1024,6 +1024,19 @@ body {
     backdrop-filter: blur(5px);
 }
 
+/* Специальные стили для позиционирования плюса в C++ */
+.plus-icon-container {
+    position: relative;
+    display: inline-block;
+}
+
+.tech-item .fa-plus {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    font-size: 0.8em;
+}
+
 .tech-item::before {
     content: '';
     position: absolute;
