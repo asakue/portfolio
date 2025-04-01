@@ -1027,14 +1027,18 @@ body {
 /* Специальные стили для позиционирования плюса в C++ */
 .plus-icon-container {
     position: relative;
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
 }
 
 .tech-item .fa-plus {
     position: absolute;
-    top: -5px;
-    right: -5px;
-    font-size: 0.8em;
+    top: -2px;
+    right: -8px;
+    font-size: 1rem;
+    color: white;
 }
 
 .tech-item::before {
