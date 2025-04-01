@@ -1025,20 +1025,18 @@ body {
 }
 
 /* Специальные стили для позиционирования плюса в C++ */
-.plus-icon-container {
+.cpp-container {
     position: relative;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
     margin-bottom: 5px;
 }
 
-.tech-item .fa-plus {
-    position: absolute;
-    top: -2px;
-    right: -8px;
-    font-size: 1rem;
+.cpp-text {
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 2.2rem;
     color: white;
+    position: relative;
 }
 
 .tech-item::before {
